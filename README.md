@@ -27,4 +27,4 @@ The project is divided into multiple classes for modularity and ease of maintena
 ## Installation & Setup
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/banking-management-system.git
+   git clone https://github.com/Abhishek-eng1/BankingMangementSystem
