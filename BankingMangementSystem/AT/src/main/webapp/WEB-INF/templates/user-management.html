@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Management</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+<h1>User Management</h1>
+
+<!-- Greeting Section -->
+<div id="greeting"></div>
+
+<!-- Registration Form -->
+<form onsubmit="return validateRegistrationForm()">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label for="balance">Initial Balance:</label>
+    <input type="number" id="balance" name="balance" required><br><br>
+
+    <button type="submit">Register User</button>
+</form>
+
+<br>
+
+<!-- Autofill Button -->
+<button onclick="autofillUserData()">Auto-fill Dummy Data</button>
+</body>
+</html>
